@@ -1,0 +1,1030 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://object.tscn" type="PackedScene" id=1]
+[ext_resource path="res://whitesquare.png" type="Texture" id=2]
+[ext_resource path="res://Position2D.tscn" type="PackedScene" id=3]
+
+[sub_resource type="ConvexPolygonShape2D" id=2]
+points = PoolVector2Array( 64, 64, 0, 64, 0, 0, 64, 0 )
+
+[sub_resource type="TileSet" id=1]
+0/name = "whitesquare.png 0"
+0/texture = ExtResource( 2 )
+0/tex_offset = Vector2( 0, 0 )
+0/modulate = Color( 1, 1, 1, 1 )
+0/region = Rect2( 0, 0, 64, 64 )
+0/tile_mode = 0
+0/occluder_offset = Vector2( 0, 0 )
+0/navigation_offset = Vector2( 0, 0 )
+0/shape_offset = Vector2( 0, 0 )
+0/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+0/shape = SubResource( 2 )
+0/shape_one_way = false
+0/shape_one_way_margin = 1.0
+0/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 2 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
+0/z_index = 0
+
+[node name="Node2D" type="Node2D"]
+
+[node name="object" parent="." instance=ExtResource( 1 )]
+position = Vector2( 332, 304 )
+scale = Vector2( 0.15, 0.15 )
+id = 1
+
+[node name="object2" parent="." instance=ExtResource( 1 )]
+position = Vector2( 599, 218 )
+scale = Vector2( 0.15, 0.15 )
+
+[node name="object3" parent="." instance=ExtResource( 1 )]
+position = Vector2( 599, 218 )
+scale = Vector2( 0.15, 0.15 )
+
+[node name="object4" parent="." instance=ExtResource( 1 )]
+position = Vector2( 599, 218 )
+scale = Vector2( 0.15, 0.15 )
+
+[node name="object5" parent="." instance=ExtResource( 1 )]
+position = Vector2( 599, 218 )
+scale = Vector2( 0.15, 0.15 )
+
+[node name="object6" parent="." instance=ExtResource( 1 )]
+position = Vector2( 599, 218 )
+scale = Vector2( 0.15, 0.15 )
+
+[node name="object7" parent="." instance=ExtResource( 1 )]
+position = Vector2( 599, 218 )
+scale = Vector2( 0.15, 0.15 )
+
+[node name="object8" parent="." instance=ExtResource( 1 )]
+position = Vector2( 599, 218 )
+scale = Vector2( 0.15, 0.15 )
+
+[node name="object9" parent="." instance=ExtResource( 1 )]
+position = Vector2( 599, 218 )
+scale = Vector2( 0.15, 0.15 )
+
+[node name="object10" parent="." instance=ExtResource( 1 )]
+position = Vector2( 599, 218 )
+scale = Vector2( 0.15, 0.15 )
+
+[node name="object11" parent="." instance=ExtResource( 1 )]
+position = Vector2( 598, 218 )
+scale = Vector2( 0.15, 0.15 )
+
+[node name="object12" parent="." instance=ExtResource( 1 )]
+position = Vector2( 587, 228 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object13" parent="." instance=ExtResource( 1 )]
+position = Vector2( 598, 228 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object14" parent="." instance=ExtResource( 1 )]
+position = Vector2( 598, 240 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object15" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object16" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object17" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object18" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object19" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object20" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object21" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object22" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object23" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object24" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object25" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object26" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object27" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object28" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object29" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object30" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object31" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object32" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object33" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object34" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object35" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object36" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object37" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object38" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object39" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object40" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object41" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object42" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object43" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object44" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object45" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object46" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object47" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object48" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object49" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object50" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object51" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object52" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object53" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object54" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object55" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object56" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object57" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object58" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object59" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object60" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object61" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object62" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object63" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object64" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object65" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object66" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object67" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object68" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object69" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object70" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object71" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object72" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object73" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object74" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object75" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object76" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object77" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object78" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object79" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object80" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object81" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object82" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object83" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object84" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object85" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object86" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object87" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object88" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object89" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object90" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object91" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object92" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object93" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object94" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object95" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object96" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object97" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object98" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object99" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object100" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object101" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object102" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object103" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object104" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object105" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object106" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object107" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object108" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object109" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object110" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object111" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object112" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object113" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object114" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object115" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object116" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object117" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object118" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object119" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object120" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object121" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object122" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object123" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object124" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object125" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object126" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object127" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object128" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object129" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object130" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object131" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object132" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object133" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object134" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object135" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object136" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object137" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object138" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object139" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object140" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object141" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object142" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object143" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object144" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object145" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object146" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object147" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object148" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object149" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object150" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object151" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object152" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object153" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object154" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object155" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object156" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object157" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object158" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object159" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object160" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object161" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object162" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object163" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object164" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object165" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object166" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object167" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object168" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object169" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object170" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object171" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object172" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object173" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object174" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object175" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object176" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object177" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object178" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object179" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object180" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object181" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object182" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object183" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object184" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object185" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object186" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object187" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object188" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object189" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object190" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object191" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object192" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object193" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object194" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object195" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object196" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object197" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object198" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object199" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="object200" parent="." instance=ExtResource( 1 )]
+position = Vector2( 524, 237 )
+scale = Vector2( 0.15, 0.15 )
+id = 2
+
+[node name="TileMap" type="TileMap" parent="."]
+tile_set = SubResource( 1 )
+format = 1
+tile_data = PoolIntArray( 0, 0, 0, 1, 0, 0, 2, 0, 0, 3, 0, 0, 4, 0, 0, 5, 0, 0, 6, 0, 0, 7, 0, 0, 8, 0, 0, 9, 0, 0, 10, 0, 0, 11, 0, 0, 12, 0, 0, 13, 0, 0, 14, 0, 0, 15, 0, 0, 65536, 0, 0, 65551, 0, 0, 131072, 0, 0, 131087, 0, 0, 196608, 0, 0, 196623, 0, 0, 262144, 0, 0, 262159, 0, 0, 327680, 0, 0, 327695, 0, 0, 393216, 0, 0, 393231, 0, 0, 458752, 0, 0, 458767, 0, 0, 524288, 0, 0, 524303, 0, 0, 589824, 0, 0, 589825, 0, 0, 589826, 0, 0, 589827, 0, 0, 589828, 0, 0, 589829, 0, 0, 589830, 0, 0, 589831, 0, 0, 589832, 0, 0, 589833, 0, 0, 589834, 0, 0, 589835, 0, 0, 589836, 0, 0, 589837, 0, 0, 589838, 0, 0, 589839, 0, 0 )
+
+[node name="Position2D" parent="." instance=ExtResource( 3 )]
